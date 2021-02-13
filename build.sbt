@@ -2,10 +2,9 @@ name := "ShortThatURL"
 
 version := "0.1"
 
-scalaVersion := "2.13.4"
+scalaVersion := "2.11.12"
 
 idePackagePrefix := Some("dev.jandromuso")
-
 
 libraryDependencies ++= Seq(
   "org.springframework.boot" % "spring-boot-starter-web" % "2.4.2",
